@@ -1,0 +1,21 @@
+use checkout branch name
+ 
+Thank you 
+ 
+cud you pls paste these commands list or share on email...whichever is feasible for you
+ 
+git branch --> to check the brances list
+git status --> * shows the active branch
+git branch <name> --> creats a branch
+git checkout <Bname> --> swith to the branch
+git checkout -b <Bname> ---> creats the new branch and switch as well
+
+git push origin <Bname> --> push to the master
+
+git branch -d <Dname> --> to delete the branch 
+git branch -D <Dname> --> force delete the branch
+ 
+https://github.com/bschethan99/demo/
+
+
+ 
