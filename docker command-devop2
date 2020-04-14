@@ -1,0 +1,14 @@
+docker ps --> to list active process
+docker ps -a --> list all the process
+docker ps -l --> to list last
+docker ps -q --> list Cid which is active
+docker ps -aq --> list Cid all
+docker run -it centos ---> -it will take inside the Container
+
+docker run -it centos --> to keep active connection Ctrl p + q
+
+docker exec -it <Cid> /bin/bash --> to go inside a container again
+
+docker stop <Cid> --> stop the container
+
+docker run -itd centos -> dont login inside container and run in background
