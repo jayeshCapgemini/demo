@@ -12,3 +12,10 @@ docker exec -it <Cid> /bin/bash --> to go inside a container again
 docker stop <Cid> --> stop the container
 
 docker run -itd centos -> dont login inside container and run in background
+
+docker stats <CID> --> to check cpu usage
+docker top <CID> --> to check process inside container 
+docker kill <CID> --> will kill the container fource
+docker system prune --> will help to clean up the stopped container on docker ps -a
+docker logs vm6 --> help to check the logs
+docker stop vm6 vm5 vm4 vm3 --> stop multipal containers
